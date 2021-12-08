@@ -1,3 +1,4 @@
+// 두번째 입력. 투두리스트
 const toDoForm = document.querySelector(".js-toDoForm"),
   toDoInput = toDoForm.querySelector("input"),
   toDoList = document.querySelector(".js-toDoList");

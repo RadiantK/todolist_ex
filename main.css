@@ -1,13 +1,30 @@
 body {
+  font-size: 30px;
+  line-height: 1.5;
   background-color: #fff;
 }
 
-.h1 {
-  color: aqua;
+
+.js-clock h1 {
+  display: block;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
-.clicked {
-  color: #867;
+.js-form,
+.js-toDoForm {
+  display: block;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+input {
+  width: 300px;
+  height: 32px;
+  font-size: 22px;
+  font-weight: 400;
+  border: 2px solid rgb(41, 52, 150);
+  border-radius: 10px;
+  outline: none;
 }
 
 .form,
