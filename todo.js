@@ -1,7 +1,7 @@
 // 두번째 입력. 투두리스트
-const toDoForm = document.querySelector(".js-toDoForm"),
-  toDoInput = toDoForm.querySelector("input"),
-  toDoList = document.querySelector(".js-toDoList");
+const toDoForm = document.querySelector(".js-toDoForm");
+const toDoInput = toDoForm.querySelector("input");
+const toDoList = document.querySelector(".js-toDoList");
 
 const TODOS_LS = 'toDos';
 
@@ -58,12 +58,12 @@ function loadToDos(){
     const parsedToDos = JSON.parse(loadedToDos);
     parsedToDos.forEach(function(toDo) {
       paintToDo(toDo.text);
-    })
-  }
-}
+    });
+  };
+};
 
 function init() {
   loadToDos();
-  toDoForm.addEventListener("submit", handleSubmit)
+  toDoForm.addEventListener("submit", handleSubmit);
 }
 init();

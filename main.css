@@ -1,12 +1,15 @@
 body {
   font-size: 30px;
   line-height: 1.5;
-  background-color: #fff;
+  background-color: rgb(157, 233, 163);
 }
 
 
 .js-clock h1 {
+  
+  font-size: 40px;
   display: block;
+  font-weight: 700;
   margin-top: 50px;
   margin-left: 50px;
 }
@@ -32,7 +35,16 @@ input {
   display: none;
 }
 
+
+.js-toDoList {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
 .showing {
+  margin-top: 20px;
+  margin-left: 50px;
+
   display: block;
 }
 

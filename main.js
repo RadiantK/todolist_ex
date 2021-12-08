@@ -2,7 +2,7 @@
 const clockContainer = document.querySelector(".js-clock");
 const clockTitle = document.querySelector("h1");
 
-clockTitle.style.color = "#fff";
+clockTitle.style.color = "rgb(20, 32, 54";
 
 function getTime() {
   const date = new Date();
