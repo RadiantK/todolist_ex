@@ -1,7 +1,8 @@
 body {
   font-size: 30px;
+  height: 870px;
   line-height: 1.5;
-  background-color: rgb(157, 233, 163);
+  background-image: linear-gradient(120deg, #8183f5, #56219b);;
 }
 
 
